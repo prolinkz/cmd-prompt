@@ -1,4 +1,6 @@
 # cmd-prompt
+[YT video](https://www.youtube.com/watch?v=qnXe1gecux8)
+
 ## Command Line prompt interface
 - Type 'cmd' in the window search bar, and open Command Prompt as Administrator
 - The default originated parent directory will be something C:/Users/Admin>
@@ -65,6 +67,20 @@
 - <code> list disk </code> and all the connected disks with system will show
 - ![image](https://github.com/prolinkz/cmd-prompt/assets/45316278/dcbcfa23-23ee-43ac-98c1-442f2736b4cf)
 
+
+-  DISKPART>Datail disk
+  > DISKPART>select disk 0
+  > To exit, type exist command
+  
+
+  > Check Disk
+  - <code> >checkdisk </code> it will scan the bad sactors, and issues in filing or drive. We we deleting appplications, or data sometime it doesnot delete in right way which convert into bad sactors into drive. The chkdsk command will listed all the issues to recover if exist.
+
+> For MAC
+  - <code> getmac </code>
+
+> The whole system network
+- <code> C:/window/system32>systeminfo </code>
 
 
 
