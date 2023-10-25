@@ -84,7 +84,10 @@
 
 
 
+### Managing User Acoount with CMD
+- create, remove, manage
 
+- 
 
 
 
