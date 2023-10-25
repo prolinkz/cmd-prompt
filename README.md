@@ -30,6 +30,7 @@
 
 
 ### Task Manager> Managing Tasks and Services of Windows
+- to use command be sure you are on C:/Users/Administrator> path
 >> Task Manager
 - Activities are running in a computer system in style of operations for supporting running application and the machine actually. Several Tasks are running and bucnch of services consume much memory which we need to get to know which are needed are which are not.
 - These bunch of services running to support the GUI User Interface activities.  which are esential to run
@@ -48,7 +49,24 @@
 - <code> >driverquery </code>
 
 
-### 
+### getting the System and/or Installed Program Information using CMD
+
+- open the CMD prompt as Adminstrator
+- in the command propmt, write the code it will make a text file with all the
+- <code> wmic </code> Enter , it will go to CLI> mode, now write the file_name with command
+- <code> /output:c:\jss.text product get name,version </code>
+- ![installed Programs](https://github.com/prolinkz/cmd-prompt/assets/45316278/7fee0e44-6b34-414d-b177-eccbb9c0a9c0)
+- If we want to know about the CPU, processor type <code> cpu </code>
+- to come back to prompt from CLI , type <code> exit </code>
+
+> To check the Hard Drive Disk
+- the command s <code> diskpart </code>
+- The DISKPART> mode will activated, now we we run command
+- <code> list disk </code> and all the connected disks with system will show
+- ![image](https://github.com/prolinkz/cmd-prompt/assets/45316278/dcbcfa23-23ee-43ac-98c1-442f2736b4cf)
+
+
+
 
 
 
